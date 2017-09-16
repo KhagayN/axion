@@ -13,6 +13,7 @@ scmVersion {
     tag {
         prefix = 'xva-'
     }
+    ignoreUncommittedChanges = true
 }
 
 project.version = scmVersion.version
